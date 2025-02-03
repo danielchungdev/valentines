@@ -239,7 +239,7 @@ const ControlledForm: FC<ControlledFormProps> = ({ nextStep }) => {
                 name="friedchicken"
                 render={({ field }) => (
                   <FormItem className="flex flex-col gap-4 mt-8">
-                    <FormLabel>Friend Chicken</FormLabel>
+                    <FormLabel>Fried Chicken</FormLabel>
                     <Slider
                       value={[field.value ?? 0]}
                       onValueChange={(val) => field.onChange(val[0])}

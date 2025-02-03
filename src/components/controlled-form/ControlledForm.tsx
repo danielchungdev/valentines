@@ -273,19 +273,6 @@ const ControlledForm: FC<ControlledFormProps> = ({ nextStep }) => {
                   </FormItem>
                 )}
               />
-              <FormField
-                control={form.control}
-                name="pasta"
-                render={({ field }) => (
-                  <FormItem className="flex flex-col gap-4 mt-8">
-                    <FormLabel>Pasta</FormLabel>
-                    <Slider
-                      value={[field.value ?? 0]}
-                      onValueChange={(val) => field.onChange(val[0])}
-                    />
-                  </FormItem>
-                )}
-              />
             </div>
           )}
           {form.getValues().date && form.getValues().time && (

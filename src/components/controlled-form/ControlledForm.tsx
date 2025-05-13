@@ -143,8 +143,7 @@ const ControlledForm: FC<ControlledFormProps> = ({ nextStep }) => {
                       selected={field.value}
                       onSelect={field.onChange}
                       disabled={(date) =>
-                        date > new Date("2025-02-14") ||
-                        date < new Date("2025-02-11")
+                        date < new Date()
                       }
                       initialFocus
                     />

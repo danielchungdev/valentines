@@ -10,7 +10,7 @@ type QuestionProps = {
 const Question: FC<QuestionProps> = ({nextStep}) => {
   return (
     <Card>
-      <p className="text-4xl mb-4 text-center">Quieres ser mi valentines?</p>
+      <p className="text-4xl mb-4 text-center">Quieres ser ir a comer?</p>
       <Image
         className="m-auto"
         src={"/gifs/cutedog.gif"}
